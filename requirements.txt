@@ -5,6 +5,7 @@ certifi==2020.12.5
 cffi @ file:///C:/ci/cffi_1636542074879/work
 charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
 click==8.0.3
+setuptools==0.7.3
 colorama==0.4.4
 cryptography @ file:///C:/ci/cryptography_1635348572149/work
 Flask==2.0.2
