@@ -38,7 +38,7 @@ def uploadPM():
 def pm():
     peran = 'Product Manager'
     name = 'Akselzen'
-    nilai = 25
+    nilai = 50
     textkeywords = "Berikut keyword yang bisa kamu pakai!\n"
     textsaran = " "
 
@@ -49,6 +49,28 @@ def pm():
     file = open('CV.txt', 'w')
     file.write(txt)
     file.close()
+
+    #ANTISIPASI GAMBAR KOSONG/NGAWUR
+    file1 = open("CV.txt", "rt")
+    data = file1.read()
+    words = data.split()
+
+    if (len(words) >= 100):
+        nilai == nilai
+    else:
+        nilai -= 30
+        textsaran += 'Wah sepertinya salah file nih. Nah sekedar reminder nanti di CV kamu jangan lupa : '
+
+    #WORDS GABOLE <= 1200
+    file1 = open("CV.txt", "rt")
+    data = file1.read()
+    words = data.split()
+
+    if (len(words) <= 1200):
+        nilai == nilai
+    else:
+        nilai == 0
+        textsaran += 'CV kamu kepanjangan, dipersingkat lagi ya! '
 
     #BASEDONROLES1 [10%]
     def check():
@@ -265,7 +287,7 @@ def uploadSE():
 def se():
     peran = 'Software Engineer'
     name = 'Akselzen'
-    nilai = 25
+    nilai = 50
     textkeywords = "Berikut keyword yang bisa kamu pakai!\n"
     textsaran = ""
 
@@ -276,6 +298,28 @@ def se():
     file = open('CV.txt', 'w')
     file.write(txt)
     file.close()
+
+    #ANTISIPASI GAMBAR KOSONG/NGAWUR
+    file1 = open("CV.txt", "rt")
+    data = file1.read()
+    words = data.split()
+
+    if (len(words) >= 100):
+        nilai == nilai
+    else:
+        nilai -= 30
+        textsaran += 'Wah sepertinya salah file nih. Nah sekedar reminder nanti di CV kamu jangan lupa : '
+
+    #WORDS GABOLE <= 1200
+    file1 = open("CV.txt", "rt")
+    data = file1.read()
+    words = data.split()
+
+    if (len(words) <= 1200):
+        nilai == nilai
+    else:
+        nilai == 0
+        textsaran += 'CV kamu kepanjangan, dipersingkat lagi ya! '
 
     #BASEDONROLES1 [10%]
     def check():
@@ -492,7 +536,7 @@ def uploadGD():
 def gd():
     peran = 'Graphic Designer'
     name = 'Akselzen'
-    nilai = 25
+    nilai = 50
     textkeywords = "Berikut keyword yang bisa kamu pakai!\n"
     textsaran = ""
 
@@ -503,6 +547,28 @@ def gd():
     file = open('CV.txt', 'w')
     file.write(txt)
     file.close()
+
+    #ANTISIPASI GAMBAR KOSONG/NGAWUR
+    file1 = open("CV.txt", "rt")
+    data = file1.read()
+    words = data.split()
+
+    if (len(words) >= 100):
+        nilai == nilai
+    else:
+        nilai -= 30
+        textsaran += 'Wah sepertinya salah file nih. Nah sekedar reminder nanti di CV kamu jangan lupa : '
+
+    #WORDS GABOLE <= 1200
+    file1 = open("CV.txt", "rt")
+    data = file1.read()
+    words = data.split()
+
+    if (len(words) <= 1200):
+        nilai == nilai
+    else:
+        nilai == 0
+        textsaran += 'CV kamu kepanjangan, dipersingkat lagi ya! '
 
     #BASEDONROLES1 [10%]
     def check():
@@ -719,7 +785,7 @@ def uploadF():
 def fin():
     peran = 'Finance'
     name = 'Akselzen'
-    nilai = 25
+    nilai = 50
     textkeywords = "Berikut keyword yang bisa kamu pakai!\n"
     textsaran = ""
 
@@ -730,6 +796,28 @@ def fin():
     file = open('CV.txt', 'w')
     file.write(txt)
     file.close()
+
+    #ANTISIPASI GAMBAR KOSONG/NGAWUR
+    file1 = open("CV.txt", "rt")
+    data = file1.read()
+    words = data.split()
+
+    if (len(words) >= 100):
+        nilai == nilai
+    else:
+        nilai -= 30
+        textsaran += 'Wah sepertinya salah file nih. Nah sekedar reminder nanti di CV kamu jangan lupa : '
+
+    #WORDS GABOLE <= 1200
+    file1 = open("CV.txt", "rt")
+    data = file1.read()
+    words = data.split()
+
+    if (len(words) <= 1200):
+        nilai == nilai
+    else:
+        nilai == 0
+        textsaran += 'CV kamu kepanjangan, dipersingkat lagi ya! '
 
     #BASEDONROLES1 [10%]
     def check():
