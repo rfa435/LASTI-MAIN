@@ -1,6 +1,5 @@
 from flask import Flask, render_template, request, request, redirect, url_for
 from werkzeug.utils import secure_filename 
-from app import app
 import os
 import pytesseract
 import cv2
