@@ -1,1 +1,1 @@
-web:python template.py app:app
+web:gunicorn app:app
